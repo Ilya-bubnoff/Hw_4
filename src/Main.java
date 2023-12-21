@@ -15,6 +15,34 @@ if(airTemperature>5){
 } else{
     System.out.println("На улице "+airTemperature+" градусов, нужно надеть шапку");
 }
-
+int speed = 50;
+if(speed>60){
+    System.out.println("Если скорость "+speed+" , то придётся заплатить штраф");
+}else{
+    System.out.println("Если скорость "+speed+" , можно ездить спокойно");
+}
+int personisAge = 4;
+if (personisAge>=2 && personisAge<=6){
+    System.out.println("Если возраст человека равен "+personisAge+" , то ему нужно ходить в детский сад");
+}
+if (personisAge>6 && personisAge<=17){
+    System.out.println("Если возраст человека равен "+personisAge+" , то ему нужно ходить в школу");
+}
+if (personisAge>17 && personisAge<=24){
+            System.out.println("Если возраст человека равен "+personisAge+" , то ему нужно ходить в университет");
+        }
+if (personisAge>24){
+            System.out.println("Если возраст человека равен "+personisAge+" , то ему нужно ходить на работу");
+        }
+int childisAge = 12;
+if(childisAge<=5){
+    System.out.println("Если возраст ребёнка равен "+childisAge+" , то ему нельзя кататься на аттракционе");
+}
+if(childisAge>5 && childisAge<=14){
+    System.out.println("Если возраст ребёнка равен "+childisAge+" , то можно кататься на аттракционе в сопровождении взрослого");
+}
+if(childisAge>14){
+            System.out.println("Если возраст ребёнка равен "+childisAge+" , то можно кататься на аттракционе без сопровождения взрослого");
     }
+}
 }
