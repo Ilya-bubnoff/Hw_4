@@ -44,5 +44,26 @@ if(childisAge>5 && childisAge<=14){
 if(childisAge>14){
             System.out.println("Если возраст ребёнка равен "+childisAge+" , то можно кататься на аттракционе без сопровождения взрослого");
     }
+int places = 51;
+if(places<=60){
+    System.out.println("В вагоне есть сидячие места");
+}
+else if(places>60&&places<=102){
+    System.out.println("В вагоне есть стоячие места");
+
+}
+else{
+    System.out.println("В вагоне нет мест");
+}
+int one = 3;
+int two = 2;
+int three = 1;
+if(one>two && one>three){
+    System.out.println("Число one больше two и three");
+}else if (two>one && two>three){
+    System.out.println("Число two больше one и three");
+}else{
+    System.out.println("Число three больше one и two");
+}
 }
 }
